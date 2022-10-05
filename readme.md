@@ -13,7 +13,7 @@ Duration : **7 Hours**
 Explored `CSS flexbox` ,get command over different flexbox properties  of container and items  and also get to  learn  in depth understanding of `position` property. 
 
 ## Deployed Link
- [click here to see deployed version](https://street-style-link.netlify.app/ "Click to Visit Link") 
+ [click here to see deployed version](https://saas-home-page-link.netlify.app/"Click to Visit Link") 
 
 
 ## Screenshots
