@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Poppins",sans-serif;
+}
+header{ 
+    background-color: #7030CC;
+    color: #ffffff;
+    height: 700px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.logo{
+    height: 35px;
+    width: 65px;
+    position: relative;
+    left:100px;
+    
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 40%;
+    position: relative;
+    left: 40px;
+    font-weight: 200;
+
+}
+.active-item{
+    color: #35BDD0;
+}
+.active-item::after{
+    content: "";
+    height:1px;
+    width: 50px;
+    display: block;
+    background-color: pink;
+    
+}
+
+.free-trial{
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#51E1ED; 
+    border: none;
+    padding: 10px 30px;
+    position: relative;
+    right: 80px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;  
+
+}
+.banner-content{
+    width: 30%;
+    position: relative; 
+    left: 230px;
+    top: 150px;
+
+}
+.big-img-1{
+    height: 700px;
+    width: 600px; 
+    position: relative;
+    bottom: 130px;
+    left: 330px;
+}
+.banner-content{ 
+    height: 400px;
+    width: 25%;
+    position: relative;
+    top: 30px;
+
+}
+.banner-content-heading{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.banner-content-body{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+main{
+    padding-top: 150px;
+    display: flex;  
+    height: 550px;
+    position: relative;
+    left: 40px;
+}
+.big-img-2{
+    height: 700px;
+    width: 600px; 
+    position: relative;
+    bottom: 130px;
+    left: 130px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+    position: relative;
+    left: 170px; 
+}
+.main-list{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around ; 
+ height: 40%;
+ padding-top:10px;
+ position: relative;
+ left: 20px;
+ top: 50px;
+ list-style-type: none;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+ }
+.main-content-heading{
+    font-size: 28px;
+    margin-top: 20px;
+}
+.fa-share{
+ padding-right: 10px;
+ font-size: 14px;
+}
+.main-item p{
+    font-size:14px;
+    width: 80%;
+    padding: 20px;
+}
+ .secure{
+    color: #F4BE2C;
+ }
+ .custom{
+    color: #4DD637;
+ }
+ .contract{
+    color: #5DA3FA ;
+ }
+
+ 
+ .feature-heading{
+    text-align: center;
+    font-size: 15px;  
+ }
+ .feature-heading h1{  
+    width: 40%;  
+    position: relative;
+    left: 350px;
+ }
+
+ .features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 75%;
+    position: relative;
+    left: 130px;
+    margin: 35px 0px ;
+ }
+
+ .feature{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 1px 10px 3px #00000028;
+    
+ }
+ .feature-img{
+    height:40px;
+    width: 40px;
+    
+ }
+ 
+ .four,.three,.two,.one{
+    height:80px;
+    width: 90px;  
+    border-radius: 50%; 
+    
+  } 
+  .four{
+    background-color:#8d3daf3f ;
+  }
+  .three{
+    background-color:#51e0ed3f ;
+  }
+  .two{
+    background-color: #cfb1b183;
+  }
+  .one{ 
+background-color: #35bed06e;
+  }
+ .support-img,.web-img,.secured-img,.analytics-img{ 
+    position: relative;
+    top: 20px;   
+    left: 25px;
+    height:40px;
+    width: 40px;
+ }
+ .secured-img{
+    background-color: #51E1ED;
+    -webkit-mask: url(./assets/secured-profile.svg) no-repeat  center;
+ }
+ .support-img{
+    background-color: #8D3DAF;
+    -webkit-mask: url(./assets/support.svg) no-repeat  center;
+    /* mask: url(./support.svg) no-repeat center; */
+ }
+  
+  .web-img{
+    background-color: #35BDD0;
+    -webkit-mask: url(./assets/web-developing.svg)no-repeat  center; 
+ }
+ .feature-cont{
+  position: relative;
+  left:60px;
+  
+ }
+
+ .feature-content{
+    text-align: center;
+    margin-top: 30px;
+    
+ }
+ .detail{
+    font-size: 12px;
+    width: 80%; 
+    position: relative;
+    left: 15px;
+ }
+ .feature-name{
+    font-size:22px;
+ }
+ .active-feature{
+     padding: 0px  ;
+     padding-top: 10px;
+ }
+ .active{ 
+    width: 100%;
+    background-color: #5A20CB; 
+    color: #ffffff;
+    position: relative;
+    top: 16px;
+    height: 70%;
+    border-radius: 40px;
+    
+    
+ }
+  
