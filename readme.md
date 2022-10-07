@@ -1,6 +1,6 @@
-# SAAS Landing page ![](https://img.shields.io/badge/-HTML-orange) ![](https://img.shields.io/badge/-CSS-yellowgreen)
+# SAAS Landing page ![](https://img.shields.io/badge/-HTML-orange) ![](https://img.shields.io/badge/-CSS-yellowgreen)![](https://img.shields.io/badge/-mobile%20responsive-orange)
   
- This is a landing page made for learning purposes using `CORE CSS` and `HTML`.  This project is an assignment to Full Stack Javascript Modern Web Development Bootcamp 1.0 by  [ineuron.ai](https://ineuron.ai/)  
+ This is a `mobile responsive` landing page made for learning purposes using `CORE CSS` and `HTML`.  This project is an assignment to Full Stack Javascript Modern Web Development Bootcamp 1.0 by  [ineuron.ai](https://ineuron.ai/)  
 
 
 Made by - **Robin Khilery**

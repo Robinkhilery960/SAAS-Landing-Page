@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins",sans-serif; 
 }
 header{ 
     background-color: #7030CC;
     color: #ffffff;
-    height: 700px;
+    /* height: 700px; */
+    padding: 20px;
 }
 
 nav{
@@ -21,19 +22,14 @@ nav{
 }
 .logo{
     height: 35px;
-    width: 65px;
-    position: relative;
-    left:100px;
-    
+    width: 65px; 
 }
 
 .list{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
-    width: 40%;
-    position: relative;
-    left: 40px;
+    width: 40%; 
     font-weight: 200;
 
 }
@@ -54,37 +50,31 @@ nav{
     color: #ffffff;
     background-color:#51E1ED; 
     border: none;
-    padding: 10px 30px;
-    position: relative;
-    right: 80px;
+    padding: 10px 30px; 
 }
+
+
 
 .banner{
     display: flex;
     flex-direction: row;  
+    justify-content: space-around;
+    align-items: center; 
 
 }
 .banner-content{
-    width: 30%;
-    position: relative; 
-    left: 230px;
-    top: 150px;
+    width: 40%;  
 
+}
+.big-img-1-cont{
+    height: 100%;
+    width: 40%; 
 }
 .big-img-1{
-    height: 700px;
-    width: 600px; 
-    position: relative;
-    bottom: 130px;
-    left: 330px;
+    height:100%;
+    width: 100%;  
 }
-.banner-content{ 
-    height: 400px;
-    width: 25%;
-    position: relative;
-    top: 30px;
-
-}
+ 
 .banner-content-heading{
     font-size: 40px;
     padding-bottom: 30px;
@@ -92,55 +82,41 @@ nav{
 .banner-content-body{
     font-weight: 200;
     font-size: 12px;
+    overflow: hidden;
 }
 
-main{
-    padding-top: 150px;
-    display: flex;  
-    height: 550px;
-    position: relative;
-    left: 40px;
-}
-.big-img-2{
-    height: 700px;
-    width: 600px; 
-    position: relative;
-    bottom: 130px;
-    left: 130px;
-}
+main{  
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 50px;
+} 
 .main-content{
     display: flex;
     flex-direction: column;
-    width: 30%; 
-    position: relative;
-    left: 170px; 
+    width: 40%;  
 }
 .main-list{
  display: flex;
- flex-direction: column;
- justify-content: space-around ; 
- height: 40%;
- padding-top:10px;
+ flex-direction: column; 
+ align-items:flex-start;
+ width: 60%; 
  position: relative;
- left: 20px;
- top: 50px;
- list-style-type: none;
+ left: 20px; 
+ list-style-type: none; 
 }
-.main-content{
-    display: flex;
-    flex-direction: column;
- }
+ 
 .main-content-heading{
-    font-size: 28px;
-    margin-top: 20px;
+    font-size: 28px; 
+    width: 90%;
+
 }
 .fa-share{
  padding-right: 10px;
  font-size: 14px;
 }
+ 
 .main-item p{
-    font-size:14px;
-    width: 80%;
+    font-size:14px; 
     padding: 20px;
 }
  .secure{
@@ -156,33 +132,26 @@ main{
  
  .feature-heading{
     text-align: center;
-    font-size: 15px;  
+    font-size: 15px;   
  }
- .feature-heading h1{  
-    width: 40%;  
-    position: relative;
-    left: 350px;
- }
+  
 
  .features{
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
-    width: 75%;
-    position: relative;
-    left: 130px;
-    margin: 35px 0px ;
+    margin: 35px 0px ; 
  }
 
  .feature{
-    width: 18%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center; 
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 3px 1px 10px 3px #00000028;
+    box-shadow: 3px 1px 10px 3px #00000028; 
     
  }
  .feature-img{
@@ -230,13 +199,9 @@ background-color: #35bed06e;
     background-color: #35BDD0;
     -webkit-mask: url(./assets/web-developing.svg)no-repeat  center; 
  }
- .feature-cont{
-  position: relative;
-  left:60px;
   
- }
 
- .feature-content{
+ .feature-content {
     text-align: center;
     margin-top: 30px;
     
@@ -264,5 +229,63 @@ background-color: #35bed06e;
     border-radius: 40px;
     
     
+ }
+
+
+
+
+ @media screen and (max-width:950px){
+     
+    .list,.free-trial{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        font-size: 40px;
+
+    }
+     
+    .banner-content-heading{
+        font-size: 20px;
+    }
+    .main-content-heading{
+        font-size: 15px;
+    }
+    .main-list{ 
+        width: 100%; 
+        position: relative;
+        left: 0px;  
+       }
+       .main-item h3{
+        font-size: 15px;
+       }
+
+ }
+ @media screen and (max-width:650px){
+     
+     
+    .fa-bars{
+        display: block;
+        font-size: 30px;
+
+    }
+     
+     .banner{
+        flex-direction: column-reverse;
+        gap: 10px;
+        width: 100%;
+     }
+     main{
+        flex-direction: column;
+        align-items: center;
+     }
+     .features{
+        flex-direction: column;
+        gap: 50px; 
+        align-items: center;
+     }
+     .feature{
+        width: 50%;
+     }
  }
   
